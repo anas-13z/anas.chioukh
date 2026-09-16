@@ -17,12 +17,12 @@
         <nav>
             <ul class="nav-links">
                 <li><a href="#about">À propos</a></li>
-                <li><a href="#environment">Environnement SISR</a></li>
+                <li><a href="#environment">SISR</a></li>
                 <li><a href="#skills">Compétences</a></li>
-                <li><a href="#projects">Ateliers Pros (AP)</a></li>
-                <li><a href="#watch">Veille : Ransomware</a></li>
-                <li><a href="#stage-report">Rapport de Stage</a></li>
-                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#projects">AP</a></li>
+                <li><a href="#watch">Veille</a></li>
+                <li><a href="#stage-report">Stage</a></li>
+                <li><a href="#experience">Parcours</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -42,10 +42,13 @@
             <span class="badge">BTS SIO SISR — 2ème Année</span>
             <h1>Anas CHIOUKH</h1>
             <h2>Administrateur Systèmes, Réseaux & Cybersécurité</h2>
-            <p>Étudiant passionné par les infrastructures hybrides (Windows/Linux), la virtualisation Proxmox et la gestion d'équipements réseaux sécurisés.</p>
+            <p>Étudiant en 2ᵉ année de BTS SIO option SISR, intéressé par l’administration des systèmes et réseaux ainsi que la cybersécurité[cite: 7].</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn"><i class="fa-solid fa-briefcase"></i> Voir mes AP</a>
-                <a href="#contact" class="btn secondary-btn"><i class="fa-solid fa-envelope"></i> Me Contacter</a>
+                <!-- Bouton Aperçu CV -->
+                <button class="btn primary-btn preview-btn" data-doc="https://docs.google.com/document/d/e/2PACX-1vSoEzaYnDsJcnsm07X7dLZXt6ZWAjUYV0Ibn7PqFdO0zaXbstM6tDcKMVhOoAMwJQSDBheFIzR6uyuZ/pub?embedded=true">
+                    <i class="fa-solid fa-file-pdf"></i> Voir mon CV
+                </button>
+                <a href="#projects" class="btn secondary-btn"><i class="fa-solid fa-briefcase"></i> Voir mes AP</a>
             </div>
         </div>
     </section>
@@ -55,8 +58,18 @@
         <h2 class="section-title">À propos de moi</h2>
         <div class="about-container">
             <div class="about-text">
-                <p>Étudiant en 2ème année de <strong>BTS SIO (Services Informatiques aux Organisations) option SISR</strong> au lycée Léonard de Vinci (Melun)[cite: 5]. Dynamique, ponctuel et rigoureux, je développe mes compétences en administration système et réseau tout en cultivant une forte capacité d'adaptation[cite: 5].</p>
-                <p>Titulaire du <strong>Permis B</strong> et de la formation <strong>PSC (Premiers Secours Citoyen)</strong>[cite: 5].</p>
+                <p>Étudiant en 2ème année de <strong>BTS SIO (Services Informatiques aux Organisations) option SISR</strong> au lycée Léonard de Vinci (Melun)[cite: 7]. À la recherche d'un stage de deuxième année du <strong>4 janvier au 27 février 2027</strong> afin de mettre en pratique mes compétences techniques en informatique[cite: 7].</p>
+                <p>Titulaire du <strong>Permis B</strong> et du <strong>PSC (Premiers Secours Citoyen)</strong>[cite: 7].</p>
+                
+                <!-- Bloc d'action pour le CV -->
+                <div class="doc-actions" style="margin-top: 1.5rem;">
+                    <button class="btn preview-btn" data-doc="https://docs.google.com/document/d/e/2PACX-1vSoEzaYnDsJcnsm07X7dLZXt6ZWAjUYV0Ibn7PqFdO0zaXbstM6tDcKMVhOoAMwJQSDBheFIzR6uyuZ/pub?embedded=true">
+                        <i class="fa-solid fa-eye"></i> Aperçu rapide du CV
+                    </button>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSoEzaYnDsJcnsm07X7dLZXt6ZWAjUYV0Ibn7PqFdO0zaXbstM6tDcKMVhOoAMwJQSDBheFIzR6uyuZ/pub" target="_blank" class="btn external-doc-btn">
+                        <i class="fa-solid fa-download"></i> Ouvrir / Télécharger le CV
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -66,7 +79,7 @@
         <h2 class="section-title">Mon Environnement BTS SIO SISR</h2>
         <div class="environment-container">
             <p class="env-description">
-                Au cours de mes deux années de formation en BTS SIO option SISR, j'évolue au sein d'une infrastructure réseau virtualisée d'entreprise hébergée sous <strong>Proxmox VE</strong>. Cet environnement me permet de manipuler en conditions réelles le routage inter-VLANs, la haute disponibilité et l'administration de serveurs.
+                Au cours de mes deux années de formation en BTS SIO option SISR, j'évolue au sein d'une infrastructure réseau virtualisée d'entreprise hébergée sous <strong>Proxmox VE</strong>. Cet environnement me permet de manipuler en conditions réelles le routage inter-VLANs, la haute disponibilité et l'administration de serveurs[cite: 7].
             </p>
             
             <div class="skills-grid">
@@ -74,10 +87,10 @@
                     <i class="fa-solid fa-network-wired skill-icon"></i>
                     <h3>Infrastructure Réseau & VLANs</h3>
                     <ul>
-                        <li>Segmentation réseau par VLANs (LAN, DMZ, Invités, Administration)</li>
-                        <li>Routage IP inter-VLANs & règles de pare-feu sous Linux</li>
-                        <li>Plan d'adressage IP statique et attribution DHCP</li>
-                        <li>Analyse de trames et d'équipements avec Wireshark</li>
+                        <li>Configuration de switchs Cisco physiques & Packet Tracer[cite: 7]</li>
+                        <li>Mise en place et configuration de VLANs & affectation des ports[cite: 7]</li>
+                        <li>Déploiement et configuration des services DHCP et DNS[cite: 7]</li>
+                        <li>Tests de connectivité (ping, trames TCP/IP & Modèle OSI)[cite: 7]</li>
                     </ul>
                 </div>
 
@@ -85,10 +98,9 @@
                     <i class="fa-solid fa-server skill-icon"></i>
                     <h3>Hyperviseur & Virtualisation</h3>
                     <ul>
-                        <li>Gestion du cluster de virtualisation <strong>Proxmox VE</strong></li>
-                        <li>Déploiement de VM Debian Linux & Windows Server</li>
-                        <li>Optimisation des performances via pilotes <strong>VirtIO</strong></li>
-                        <li>Gestion des Snapshots, clonages et sauvegardes VZDump</li>
+                        <li>Gestion de la virtualisation sous <strong>Proxmox VE</strong> et <strong>VirtualBox</strong>[cite: 7]</li>
+                        <li>Déploiement et maintenance de VM Linux (Debian) & Windows Server[cite: 7]</li>
+                        <li>Optimisation des performances réseau et matériel[cite: 7]</li>
                     </ul>
                 </div>
 
@@ -112,40 +124,37 @@
                 <i class="fa-solid fa-server skill-icon"></i>
                 <h3>Virtualisation & Hyperviseurs</h3>
                 <ul>
-                    <li>Proxmox VE</li>
-                    <li>VirtualBox</li>
-                    <li>Gestion VM, Clonage & VirtIO</li>
-                    <li>Configuration VLANs virtuels</li>
+                    <li>Proxmox VE & VirtualBox[cite: 7]</li>
+                    <li>Gestion VM & Clonage[cite: 7]</li>
+                    <li>Configuration VLANs virtuels[cite: 7]</li>
                 </ul>
             </div>
             <div class="skill-card">
                 <i class="fa-brands fa-windows skill-icon"></i>
-                <h3>Administration Windows</h3>
+                <h3>Administration Windows Server</h3>
                 <ul>
-                    <li>Active Directory (AD DS), DNS</li>
-                    <li>Modèle de droits AGDLP</li>
-                    <li>Gestion & Déploiement par GPO</li>
-                    <li>Serveur IIS & FTPS sécurisé</li>
+                    <li>Active Directory (AD DS) & DNS[cite: 7]</li>
+                    <li>Gestion des utilisateurs, groupes & GPO[cite: 7]</li>
+                    <li>Maintenance & support des systèmes Windows[cite: 7]</li>
                 </ul>
             </div>
             <div class="skill-card">
                 <i class="fa-brands fa-linux skill-icon"></i>
-                <h3>Systèmes Linux</h3>
+                <h3>Administration Linux & Scripting</h3>
                 <ul>
-                    <li>Debian / Ubuntu Server</li>
-                    <li>Serveur Web LAMP & FastCGI PHP-FPM</li>
-                    <li>Services Intranet : DokuWiki, WordPress</li>
-                    <li>Gestion fine des permissions & ACL</li>
+                    <li>Serveurs Linux en ligne de commande (Debian/Apache2)[cite: 7]</li>
+                    <li>Automatisation de tâches avec Bash (création utilisateurs, sauvegardes)[cite: 7]</li>
+                    <li>Gestion des permissions & services système[cite: 7]</li>
+                    <li>Bases en Python[cite: 7]</li>
                 </ul>
             </div>
             <div class="skill-card">
                 <i class="fa-solid fa-shield-halved skill-icon"></i>
                 <h3>Réseaux & Sécurité</h3>
                 <ul>
-                    <li>Commutation Cisco (VLANs, Tagging)</li>
-                    <li>Analyse de trames avec Wireshark</li>
-                    <li>Protocoles TCP/IP & Certificats SSL/TLS</li>
-                    <li>Scripting Bash (Sauvegardes CRON / SCP)</li>
+                    <li>Configuration de switchs Cisco (VLANs, Ports)[cite: 7]</li>
+                    <li>Cisco Packet Tracer[cite: 7]</li>
+                    <li>Protocoles TCP/IP & Modèle OSI[cite: 7]</li>
                 </ul>
             </div>
         </div>
@@ -192,7 +201,7 @@
 
             <!-- AP 1ère Année - AP2 Web Intranet -->
             <article class="project-card" data-category="ap-1re-annee">
-                <div class="project-tag">2ème Année — AP2</div>
+                <div class="project-tag">1ère Année — AP2</div>
                 <h3>Infrastructure Web Intranet & Documentation</h3>
                 <p>Déploiement et sécurisation de services Web sous Debian Server (WordPress & DokuWiki).</p>
                 <ul class="project-highlights">
@@ -272,10 +281,10 @@
         <h2 class="section-title">Rapport de Stage</h2>
         <div class="stage-card">
             <div class="stage-header">
-                <h3>Stage E-Commerce — Nebellaza</h3>
-                <span class="company">Année 2026</span>
+                <h3>Stagiaire Informatique — NB INDUSTRY (E-Commerce)</h3>
+                <span class="company">16/05/2026 – 28/06/2026</span>[cite: 7]
             </div>
-            <p>Consultation et aperçu de mon rapport de stage réalisé au sein de l'entreprise Nebellaza (gestion du catalogue produits, mise à jour des fiches et optimisation de l'expérience utilisateur)[cite: 5].</p>
+            <p>Support informatique, assistance aux utilisateurs et maintenance des équipements[cite: 7]. Participation au suivi et à la gestion d'un site e-commerce de soins capillaires[cite: 7].</p>
             
             <div class="doc-actions">
                 <button class="btn preview-btn" data-doc="https://docs.google.com/document/d/e/2PACX-1vQLoeCHY3fjQkbnXnt7NWEMhR83qACM12l8kA0MKemllZNlD8DzmASOpghkIjWaYuW1axpnwxcuwwdb/pub?embedded=true">
@@ -293,16 +302,16 @@
         <h2 class="section-title">Expériences Professionnelles</h2>
         <div class="experience-grid">
             
-            <!-- Stage E-Commerce -->
+            <!-- Stage E-Commerce NB Industry -->
             <div class="stage-card">
                 <div class="stage-header">
-                    <h3>Stagiaire E-Commerce</h3>
-                    <span class="company">Nebellaza | 2026</span>
+                    <h3>Stagiaire Informatique & E-Commerce</h3>
+                    <span class="company">NB INDUSTRY | 2026</span>[cite: 7]
                 </div>
                 <ul>
-                    <li><i class="fa-solid fa-arrow-right"></i> Gestion et mise à jour du catalogue produits du site e-commerce[cite: 5].</li>
-                    <li><i class="fa-solid fa-arrow-right"></i> Modification des fiches produits et vérification de la cohérence des informations[cite: 5].</li>
-                    <li><i class="fa-solid fa-arrow-right"></i> Participation active à l'amélioration de l'expérience utilisateur (UX)[cite: 5].</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Support informatique et assistance technique aux utilisateurs[cite: 7].</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Maintenance des équipements et résolution de problèmes techniques[cite: 7].</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Suivi d'un site e-commerce spécialisé en produits capillaires[cite: 7].</li>
                 </ul>
             </div>
 
@@ -310,7 +319,7 @@
             <div class="stage-card">
                 <div class="stage-header">
                     <h3>Création de sites web pour particuliers</h3>
-                    <span class="company">Projets Indépendants | 2026</span>
+                    <span class="company">Projets Indépendants | 2026</span>[cite: 5]
                 </div>
                 <ul>
                     <li><i class="fa-solid fa-arrow-right"></i> Conception et développement de sites vitrines sur-mesure[cite: 5].</li>
@@ -323,11 +332,11 @@
             <div class="stage-card">
                 <div class="stage-header">
                     <h3>Travaux de chantier & Rénovation</h3>
-                    <span class="company">Rénovation Résidentielle | 2025</span>
+                    <span class="company">Rénovation Résidentielle | 2025</span>[cite: 5]
                 </div>
                 <ul>
                     <li><i class="fa-solid fa-arrow-right"></i> Participation aux travaux de rénovation globale d'une maison[cite: 5].</li>
-                    <li><i class="fa-solid fa-arrow-right"></i> Manutention, préparation des matériaux et respect strict des consignes de sécurité[cite: 5].</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Manutention, préparation des matériaux et respect des consignes de sécurité[cite: 5].</li>
                     <li><i class="fa-solid fa-arrow-right"></i> Travail en équipe, endurance et rigueur opérationnelle[cite: 5].</li>
                 </ul>
             </div>
@@ -336,12 +345,12 @@
             <div class="stage-card">
                 <div class="stage-header">
                     <h3>Livreur de journaux</h3>
-                    <span class="company">Distribution Locale | 2024 - 2025</span>
+                    <span class="company">Distribution Locale | 2024 - 2025</span>[cite: 5]
                 </div>
                 <ul>
                     <li><i class="fa-solid fa-arrow-right"></i> Organisation et réalisation de tournées de livraison tôt le matin[cite: 5].</li>
                     <li><i class="fa-solid fa-arrow-right"></i> Respect rigoureux des horaires et des délais impartis[cite: 5].</li>
-                    <li><i class="fa-solid fa-arrow-right"></i> Preuve d'autonomie et d'un sens élevé des responsabilités[cite: 5].</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Autonomie et sens des responsabilités[cite: 5].</li>
                 </ul>
             </div>
 
@@ -353,10 +362,10 @@
         <h2 class="section-title">Me Contacter</h2>
         <div class="contact-container">
             <div class="contact-info">
-                <p><i class="fa-solid fa-envelope"></i> <strong>Email :</strong> anaschiou83@gmail.com[cite: 5]</p>
-                <p><i class="fa-solid fa-phone"></i> <strong>Téléphone :</strong> 07 66 72 96 05[cite: 5]</p>
-                <p><i class="fa-solid fa-location-dot"></i> <strong>Localisation :</strong> Montereau-Fault-Yonne / Île-de-France[cite: 5]</p>
-                <p><i class="fa-solid fa-car"></i> <strong>Permis :</strong> Permis B[cite: 5]</p>
+                <p><i class="fa-solid fa-envelope"></i> <strong>Email :</strong> anaschiou83@gmail.com[cite: 7]</p>
+                <p><i class="fa-solid fa-phone"></i> <strong>Téléphone :</strong> 07 66 72 96 05[cite: 7]</p>
+                <p><i class="fa-solid fa-location-dot"></i> <strong>Localisation :</strong> Montereau-Fault-Yonne / Île-de-France[cite: 7]</p>
+                <p><i class="fa-solid fa-car"></i> <strong>Permis :</strong> Permis B[cite: 7]</p>
             </div>
             
             <form id="contact-form">
